@@ -1,3 +1,13 @@
+# NAMA    : ELISABETH ERNI MARBUN BANJARNAHOR
+
+# NIM      : 312410525
+
+# KELAS    : I241A
+
+# MATKUL   : PEMROGRAMAN WEB 2
+
+---
+
 ## Relasi Tabel Database
 
 Skema di bawah ini menampilkan relasi antar tabel (Entity Relationship Diagram) yang digunakan dalam sistem perpustakaan, meliputi tabel `user`, `buku`, `kategori`, dan `peminjaman`. Relasi ini dirancang menggunakan fitur *Designer* pada phpMyAdmin untuk memastikan integritas data tetap terjaga.
@@ -11,6 +21,14 @@ Skema di bawah ini menampilkan relasi antar tabel (Entity Relationship Diagram) 
 Sistem ini telah dilengkapi dengan proteksi keamanan berbasis Token (JWT / Bearer). Gambar ini membuktikan bahwa jika ada pengguna yang mencoba melakukan aksi manipulasi data (seperti *POST*, *PUT*, atau *DELETE*) melalui Postman tanpa menyertakan Token Login yang valid, sistem *backend* CodeIgniter 4 akan menolak akses tersebut dan mengembalikan status **401 Unauthorized**.
 
 ![foto](https://github.com/Elisabethbanjarnahor/UAS_Web2_312410525_Elisabeth/blob/a27a1c1221cee106d8b4f92c43e231383ac9c69c/screenshot/Screenshot%202026-06-16%20012333.png)
+
+---
+
+## Halaman Pengunjung (Landing Page Publik)
+
+Halaman Beranda ini dirancang khusus untuk pengunjung publik yang belum melakukan *login*. Sesuai dengan aturan Hak Akses Pengguna (*User Matrix*), pengunjung tanpa token hanya diberikan hak untuk melihat informasi umum dan ringkasan total data koleksi perpustakaan (seperti total buku, kategori, dan status sistem).
+
+![foto](https://github.com/Elisabethbanjarnahor/UAS_Web2_312410525_Elisabeth/blob/4c9caec49b67c92aa736ff293df35b2564812523/screenshot/Screenshot%202026-06-16%20015206.png)
 
 ---
 
